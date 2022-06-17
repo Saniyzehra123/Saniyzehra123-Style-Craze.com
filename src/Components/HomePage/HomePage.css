@@ -1,0 +1,31 @@
+.menucontainer{
+    display:flex;
+    margin-left:5%;
+    width:90%;
+    border: 1px solid red;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.menucontainer>div{
+    /* margin-top: 10px; */
+    padding-right: 15px;
+  
+    /* border: 1px solid red; */
+    /* align-items: center; */
+ 
+    font-size: 17px;
+ 
+}
+.menucontainer>div>p{
+    display: flex;
+    
+ }
+
+ .route>p:nth-child(2) {
+    color:  rgb(254,92,117);
+    margin-left: 10px;
+    border: 1px solid rgb(254,92,117);;
+    /* width:15%; */
+    height:20px;
+}

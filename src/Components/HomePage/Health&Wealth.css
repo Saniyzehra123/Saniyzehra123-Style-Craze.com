@@ -1,0 +1,90 @@
+.container-health{
+    display: flex;
+    border:1px solid blue;
+    width: 100%;
+   text-align: left;
+   
+    
+  }
+  .left-health {
+   border:1px solid red;
+   width: 50%;
+   margin-left: 50px; 
+   
+  }
+  h1{
+    font-size: 30px;
+    font-weight: 400;
+   
+   
+  }
+   .line-health{
+    color:  rgb(254,92,117);
+    margin-left: 42%;
+    border: 1px solid rgb(254,92,117);
+    width:15%;
+    background-color:rgb(254,92,117) ;
+   
+    ;
+  }
+  .right-health> h2{
+    font-weight: 450;
+  }
+   p{
+   font-size: 18px;
+   color: rgb(51,51,51);
+  }
+  .right-health>p:nth-child(3){
+    color: rgb(254,92,117);
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .right-health
+  {
+    border:1px solid blue;
+    width: 40%;
+    margin-left: 65px;
+    padding-left: 3%;
+    padding-top:6%;
+  }
+  
+  .container2-health{
+    display: flex;
+    border:1px solid red;
+    width: 100%;
+    margin-top: 4%;
+    text-align: left;
+    cursor: pointer;
+    height: 390px;
+  }
+  
+  .container2-health>div{
+    border:1px solid red;
+  
+    width: 28%;
+    height: 350px;
+    margin-left: 50px; 
+  }
+  .container2-health>div>p>p:nth-child(2){
+    color: rgb(254,92,117);
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .container2-health>div>p>p:nth-child(2):hover{
+    
+    text-decoration: underline;
+   }
+   .read-health{
+    border:1px solid blue;
+    width: 20%;
+    margin-left: 550px;
+    padding-left: 35%;
+    /* padding-top:6%; */
+}
+  .read-health>p:nth-child(1){
+    color: rgb(254,92,117);
+    margin-left: 45%;
+    cursor: pointer;
+  }
+   

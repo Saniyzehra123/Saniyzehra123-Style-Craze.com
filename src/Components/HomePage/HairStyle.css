@@ -1,0 +1,87 @@
+.container-hairstyle{
+    display: flex;
+    border:1px solid blue;
+    width: 100%;
+   text-align: left;
+   
+    
+  }
+  .left-hairstyle {
+   border:1px solid red;
+   width: 50%;
+   margin-left: 50px; 
+   
+  }
+  h1{
+    font-size: 30px;
+    font-weight: 400;
+   
+   
+  }
+   .line-hairstyle{
+    color:  rgb(254,92,117);
+    margin-left: 42%;
+    border: 1px solid rgb(254,92,117);
+    width:15%;
+    background-color:rgb(254,92,117) ;
+   
+    ;
+  }
+  right-hairstyle> h2{
+    font-weight: 450;
+  }
+   p{
+   font-size: 18px;
+   color: rgb(51,51,51);
+  }
+  .right-hairstyle>p:nth-child(3){
+    color: rgb(254,92,117);
+    font-size: 14px;
+  }
+  .right-hairstyle
+  {
+    border:1px solid blue;
+    width: 40%;
+    margin-left: 65px;
+    padding-left: 3%;
+    padding-top:6%;
+  }
+  
+  .container2-hairstyle{
+    display: flex;
+    border:1px solid red;
+    width: 100%;
+    margin-top: 4%;
+    text-align: left;
+    cursor: pointer;
+    height: 390px;
+  }
+  
+  .container2-hairstyle>div{
+    border:1px solid red;
+  
+    width: 28%;
+    height: 350px;
+    margin-left: 50px; 
+  }
+  .container2-hairstyle>div>p>p:nth-child(2){
+    color: rgb(254,92,117);
+    cursor: pointer;
+  }
+  .container2-hairstyle>div>p>p:nth-child(2):hover{
+    
+    text-decoration: underline;
+   }
+   .read-hairstyle{
+    border:1px solid blue;
+    width: 20%;
+    margin-left: 550px;
+    padding-left: 35%;
+    /* padding-top:6%; */
+}
+  .read-hairstyle>p:nth-child(1){
+    color: rgb(254,92,117);
+    margin-left: 45%;
+    cursor: pointer;
+  }
+   

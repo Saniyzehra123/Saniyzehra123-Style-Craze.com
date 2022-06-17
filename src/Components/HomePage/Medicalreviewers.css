@@ -1,0 +1,163 @@
+  
+
+.medicalreviewers-container{
+    /* display: flex; */
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    /* background-color: rgb(254,92,116); */
+    border: 1px solid blue;
+    /* background-color: blue ; */
+}
+
+.inline{
+    color:  rgb(254,92,117);
+    margin-left: 45%;
+    border: 1px solid rgb(254,92,117);
+    width:10%;
+    background-color:rgb(254,92,117) ;
+   
+    ;
+  }
+
+.medicalreviewers-subcontainer{
+    display: flex;
+     
+    /* justify-content: center; */
+    justify-content: space-around;
+    width: 100%;
+   
+    height: 125px;
+    border: 1px solid red;
+    /* background-color: blue ; */
+}
+.medicalreviewers-subcontainer >div{
+    border: 1px solid red;
+    width: 30%;
+    height: 125px;
+    display: flex;
+    align-items: left;
+    /* justify-content: center; */
+}
+.medicalleft{
+   /* padding-right: 67%; */
+   width: 30%;
+}
+ 
+.medicalright{
+    /* font-size: 25px; */
+    border: 1px solid red;
+    padding-right:10%;
+   margin-left: 10px;
+ 
+    color: black;
+}
+p:nth-child(1){
+    font-size: 18px;
+    padding-left: 10px;
+    color:  rgb(254,92,116);
+    font-weight: 550;
+    cursor: pointer;
+    /* padding-right: 70px; */
+}
+ p:nth-child(2){
+    font-size: 16px;
+    padding-right: 79px;
+}
+
+.medicalright-2>p:nth-child(1){
+    padding-right: 25%;
+    font-weight: 550;
+}
+ .medicalright-2>p:nth-child(2){
+    font-size: 16px; 
+    padding-left: 26px;
+}
+
+.medicalright-3>p:nth-child(1){
+    padding-right: 45%;
+    font-weight: 550;
+}
+ .medicalright-3>p:nth-child(2){
+    font-size: 16px; 
+    padding-left: 10px;
+}
+.medicalreviewers-subcontainer2{
+    display: flex;
+     margin-top: 2%;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    
+    height: 170px;
+    border: 1px solid  green;
+    /* background-color: blue ; */
+}
+.medicalreviewers-subcontainer2 >div:hover{
+    text-decoration: underline;
+}
+
+.medicalright-4>p:nth-child(1){
+    padding-left: 25px;
+    font-weight: 550;
+}
+.medicalright-4>p:nth-child(2){
+    font-size: 16px; 
+    
+}
+.medicalright-5>p:nth-child(1){
+    padding-left: 25px;
+    font-weight: 550;
+}
+.medicalright-5>p:nth-child(2){
+    font-size: 16px;
+    padding-right: 3%; 
+    
+}
+.medicalright-6>p:nth-child(1){
+    padding-left: 30px;
+    font-weight: 550;
+}
+.medicalright-6>p:nth-child(2){
+    font-size: 16px;
+    
+    padding-left: 25px;
+    
+}
+
+.medicalreviewers-subcontainer2 >div{
+    border: 1px solid red;
+    width: 30%;
+    height: 125px;
+    display: flex;
+ 
+  background-color: white;
+    /* align-items: center;
+    justify-content: center; */
+}
+.medical{
+    border: 1px solid blue;
+    width: 100%;
+    height: 550px; 
+ }
+ .mtext>p:nth-child(1){
+    font-size: 30;
+    height: 40px;
+    color: black;
+    font-weight: 550;
+    border: 1px solid blue;
+}
+.mbtn>button{
+    /* border: 1px solid blue; */
+    border: transparent;
+    width: 20%;
+    height: 65px;
+    font-size: 17px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 550;
+    background-color: rgb(254,92,116);
+   
+}
