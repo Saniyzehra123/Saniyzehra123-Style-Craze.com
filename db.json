@@ -1,0 +1,227 @@
+{
+    "makeup":[
+        {
+            "id" : 1,
+           
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2012/06/30-Most-Beautiful-Eyes-in-the-World-1.jpg",
+            "title":"30 Most Beautiful Eyes In The World",
+            "name":"SHALINI ROY"
+            
+        },
+        {   "id" : 2,
+            
+            "img":" https://cdn2.stylecraze.com/wp-content/uploads/2013/06/2436-Madonna-Without-Makeup.jpg.webp"
+            ,"title":"9 Pictures Of Madonna Without Makeup",
+            "name":"BY NISHA BAGHADIA"
+        },
+       
+        {   "id" : 3,
+          
+           "img":"https://cdn2.stylecraze.com/wp-content/uploads/2018/12/Dip-Powder-Manicure-Everything-You-Need-To-Know-About-It.jpg.webp",
+              "title":"What Is Dip Powder Manicure? How To Do & Maintain It At Home",
+                "name":"BY RAMONA SINHA"
+
+        }
+        ,
+        {   "id" : 4,
+            
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2012/02/47-Office-Makeup-%E2%80%93-The-Right-Way-is.jpg.webp"
+            ,"title":"How To Apply Office Makeup The Right",
+            "name":"BY NISHA BAGHADIA"
+        },
+        {   "id" : 5,
+
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2014/12/1150-60-Best-Indian-Bridal-Makeup-Tips.jpg.webp",
+            "title":"60 Best Indian Bridal Makeup Tips And Ideas",
+            "name":"BY JYOTSANA RAO"
+        }
+        ,
+        {   "id" : 6,
+
+            "img":" https://cdn2.stylecraze.com/wp-content/uploads/2021/08/20-Popular-Beauty-Blogs-You-Should-Follow-Banner.jpg.webp",
+            "title":" 20 Popular Beauty Blogs You Should Follow",
+            "name":"  BY ANJALI SAYEE"
+        }
+    ],
+  
+    "products": [
+      {
+        "id": 1,
+        "img":" https://cdn2.stylecraze.com/wp-content/uploads/2021/01/3A-Hair-Type-How-To-Style-And-Take-Care-Of-Your-Hair.jpg.webp",
+        "title":" 11 Styling Tips For 3A Hair Type   And How To Take",
+        "name":"  BY ANJALI SAYEE"
+        }
+        ,
+      {
+        "id": 2,
+        "img":"  https://cdn2.stylecraze.com/wp-content/uploads/2013/07/2-7-Causes-And-12-Ways-To-Reduce-White-Hair-Naturally_599228798.jpg.webp",
+        "title":" 10 Causes Of White Hair And 12 Ways To Prevent It",
+        "name":"REVIEWED BY DR. K. HARISH KUMAR, MD DVL, MD DVL"
+        }
+        ,
+        {
+            "id": 3,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2013/11/723-397195030.jpg.webp",
+            "title":" 8 Simple Ways To Treat Hair Loss At The Temples",
+            "name":"  BY ANJALI SAYEE"
+        }
+        ,
+        {
+            "id": 4,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2014/03/832_How-To-Bleach-Hair-At-Home_shutterstock_281178557.jpg.webp",
+            "title":"How To Bleach Hair At Home – Step By Step",
+            "name":"  BY ANJALI SAYEE"
+        }
+        ,
+        {
+            "id": 5,
+            "img":" https://cdn2.stylecraze.com/wp-content/uploads/2021/02/How-To-Use-Baobab-Oil-For-Hair-Growth.jpg.webp",
+            "title":" How To Use Baobab Oil For Hair Growth, Benefits,",
+            "name":"   REVIEWED BY ELISSA PETERSON, NATUROPATH, NATUROPATH"
+        }
+        ,
+        {
+            "id": 6,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2021/02/How-Do-You-Treat-A-Dry-Scalp-And-Oily-Hair.jpg.webp",
+            "title":"  How Do You Treat A Dry Scalp And Oily Hair?",
+            "name":"  BY ANJALI SAYEE"
+        }
+
+
+
+     
+    ],
+
+    "skin": [
+        {
+            "id": 1,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2013/04/327_109632956.jpg.webp",
+            "title":"8 Simple Ways To Fix A Foundation That Is Too",
+            "name":" BY JYOTSANA RAO"
+        }
+        ,
+        {
+            "id": 2,
+            "img":" https://cdn2.stylecraze.com/wp-content/uploads/2013/07/148-shutterstock_128569691.jpg.webp",
+            "title":" Top 24 Most Beautiful Russian Women",
+            "name":"BY NISHA BAGHADIA"
+        },
+        {
+            "id": 3,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2015/07/9-Home-Remedies-To-Remove-Dark-Spots-On-Face-With-Lemon-Juice.jpg",
+            "title":"9 Home Remedies To Remove Dark Spots On",
+            "name":"  BY ARSHIYA SYEDA"
+        },
+        {
+            "id": 4,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2013/06/Top-10-Most-Beautiful-Japanese-Women.jpg.webp",
+            "title":"Top 10 Most Beautiful Japanese Women",
+            "name":"  BY NISHA BAGHADIA"
+        }
+        ,
+        
+        
+        {
+            "id": 5,
+            "img":" https://cdn2.stylecraze.com/wp-content/uploads/2021/09/Can-Birth-Control-Pills-Help-with-Acne-Treatment.jpg.webp",
+            "title":"Birth Control Pills For Acne Treatment: How They Work",
+            "name":" BY ANJALI SAYEE "
+        }
+        ,
+        {
+            "id": 6,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2018/08/10-Easy-DIY-Blackhead-Removal-Masks-You-Must-Try.jpg.webp",
+            "title":" 10 Easy DIY Blackhead Removal Masks You Must",
+            "name":" MEDICALLY REVIEWED BY DR. ZEEL GANDHI, BAMS, BAMS"
+        }
+        
+    ]
+,  "Hairstyles": [
+        {
+            "id": 1,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2020/12/Heat-Gun-Vs--Hair-Dryer-Can-Both-Be-Used-For-Hair.jpg.webp",
+            "title":" Heat Gun Vs. Hair Dryer: Can Both Be Used For",
+            "name":"  BY ANJALI SAYEE"
+        }
+        ,
+        {
+            "id": 2,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2018/12/20-Envious-Blunt-Bangs-Hairstyles.jpg.webp",
+            "title":" 20 Envious Blunt Bangs Hairstyles",
+            "name":" BY ANJALI SAYEE"
+        },
+        {
+            "id": 3,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2018/11/36-Gorgeous-Inverted-Bob-Haircuts.jpg.webp",
+            "title":" 36 Gorgeous Inverted Bob Haircuts",
+            "name":"  BY ARSHIYA SYEDA"
+        },
+        {
+            "id": 4,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2018/10/Should-You-Get-Bangs-The-Truth.jpg.webp",
+            "title":" Should I Get Bangs? Things To Consider And",
+            "name":" BY ANJALI SAYEE"
+        }
+        ,
+        
+        
+        {
+            "id": 5,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2018/10/25-Exquisite-Bob-Braids-You-Need-To-Try-Out.jpg.webp",
+            "title":"25 Exquisite Bob Braid Hairstyles & How To Style",
+            "name":" BY ANJALI SAYEE "
+        }
+        ,
+        {
+            "id": 6,
+            "img":" https://cdn2.stylecraze.com/wp-content/uploads/2015/03/20-Beautiful-Braided-Updos-For-Black-Women-1.jpg.webp",
+            "title":"20 Beautiful Braided Updos For Black Women",
+            "name":" BY ANJALI SAYEE "
+        }
+    ]
+    ,
+    "health":[
+        {
+            "id": 1,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2013/08/378_10-Best-Home-Exercises-To-Get-Rid-Of-Flabby-Arms_337537889.jpg.webp",
+            "title":" 10 Best Home Exercises To Get Rid Of Flabby Arms",
+            "name":"MEDICALLY REVIEWED BY DR. SUDHANSU SINGH, BPT, BPT"
+        }
+        ,
+        {
+            "id": 2,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2018/12/20-Envious-Blunt-Bangs-Hairstyles.jpg.webp",
+            "title":" 20 Envious Blunt Bangs Hairstyles",
+            "name":" BY ANJALI SAYEE"
+        },
+        {
+            "id": 3,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2018/11/36-Gorgeous-Inverted-Bob-Haircuts.jpg.webp",
+            "title":" 36 Gorgeous Inverted Bob Haircuts",
+            "name":"  BY ARSHIYA SYEDA"
+        },
+        {
+            "id": 4,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2018/10/Should-You-Get-Bangs-The-Truth.jpg.webp",
+            "title":" Should I Get Bangs? Things To Consider And",
+            "name":" BY ANJALI SAYEE"
+        }
+        ,
+        
+        
+        {
+            "id": 5,
+            "img":"https://cdn2.stylecraze.com/wp-content/uploads/2018/10/25-Exquisite-Bob-Braids-You-Need-To-Try-Out.jpg.webp",
+            "title":"25 Exquisite Bob Braid Hairstyles & How To Style",
+            "name":" BY ANJALI SAYEE "
+        }
+        ,
+        {
+            "id": 6,
+            "img":" https://cdn2.stylecraze.com/wp-content/uploads/2015/03/20-Beautiful-Braided-Updos-For-Black-Women-1.jpg.webp",
+            "title":"20 Beautiful Braided Updos For Black Women",
+            "name":" BY ANJALI SAYEE "
+        }
+    ]
+
+}

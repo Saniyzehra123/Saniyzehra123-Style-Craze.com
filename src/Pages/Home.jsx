@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Components/HomePage/Footer'
 import Haircare from '../Components/HomePage/Haircare'
 import HairStyles from '../Components/HomePage/HairStyles'
 import Healthwealth from '../Components/HomePage/Healthwealth'
@@ -10,12 +11,14 @@ import Medicalreviewers from '../Components/HomePage/Medicalreviewers'
  
 import { NavImg } from '../Components/HomePage/NavImg'
 import Skincare from '../Components/HomePage/Skincare'
+ 
 import Testimonials from '../Components/HomePage/Testimonials'
  
 
 export default function Home() {
   return (
     <div>
+    
         <Homepage/>
         <NavImg/>
         <Makeup/>
@@ -26,6 +29,7 @@ export default function Home() {
    <Inpress/>
    <Medicalreviewers/>
    <Testimonials/>
+     <Footer/>
       
     </div>
   )

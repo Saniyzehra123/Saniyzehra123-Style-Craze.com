@@ -9,23 +9,33 @@
 }
 .menucontainer>div{
     /* margin-top: 10px; */
-    padding-right: 15px;
+    /* padding-right: 15px; */
   
     /* border: 1px solid red; */
     /* align-items: center; */
- 
+    
     font-size: 17px;
  
 }
-.menucontainer>div>p{
+.menucontainer>div>name{
     display: flex;
+   
     
  }
+ .route{
+    display: flex;
+    flex-direction: row;
+ 
+    /* padding-left: 23%; */
+ }
 
- .route>p:nth-child(2) {
+  .route>p:nth-child(2) {
     color:  rgb(254,92,117);
-    margin-left: 10px;
-    border: 1px solid rgb(254,92,117);;
-    /* width:15%; */
-    height:20px;
+    padding-left: 5px;
+    /* border:1 px solid  rgb(254,92,117);
+    background-color: rgb(254,92,117);
+    width:-20px;
+    height: 30px; */
+     
+     
 }

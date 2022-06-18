@@ -10,10 +10,10 @@ export default function Homepage() {
       
         </div>
       <div className='menucontainer'>
-        <div>  <p className='route'>
-         <p className='name'>  MAKEUP</p>  <p></p>
+        <div  className='route'>  
+         <p className='name'>  MAKEUP</p>  <p>|</p>
          {/* <div> */}
-          </p>
+          
           
         </div>
         <div>

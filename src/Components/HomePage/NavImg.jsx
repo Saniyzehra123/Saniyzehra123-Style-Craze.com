@@ -6,6 +6,7 @@ import styles from './navimg.module.css'
 
 export const NavImg = () => {
     return (
+        <div> 
         <div className={styles.cardContainer}>
             { data.map(item => (
                     // <Link to={ item.url }>
@@ -17,9 +18,13 @@ export const NavImg = () => {
                 </div>
                  
                     // </Link>
+                     
                     
             )) }
+          
         </div>
+           <img src="https://raw.githubusercontent.com/durgeshrai633/stylecraze.com/main/img/faceinsta.jpg" alt="" />
+           </div>
     );
 };
 

@@ -12,12 +12,14 @@
  margin-left: 50px; 
  
 }
-h1{
+.head{
   font-size: 30px;
   font-weight: 400;
+   color: black;
  
+   
 }
- .line{
+ .makeline{
   color:  rgb(254,92,117);
   margin-left: 46%;
   border: 1px solid rgb(254,92,117);
@@ -64,6 +66,9 @@ h2{
   width: 28%;
   height: 350px;
   margin-left: 50px; 
+}
+.container2>div>p>p:nth-child(1){
+  color: rgb(254,92,117);
 }
 .container2>div>p>p:nth-child(2){
   color: rgb(254,92,117);

@@ -1,6 +1,6 @@
 import React from 'react'
  import  "../HomePage/Makeup.css"
- 
+ import { Link } from "react-router-dom";
  
 // import "../HomePage/Makeupdata.css"
  
@@ -8,11 +8,11 @@ import React from 'react'
 export default function Makeup() {
   return (
     <div  >
-        <h1>Makeup  <p className='line'></p>  </h1>
+      <Link to={"/Makeup"}>   <h2 className="head">Makeup  <p className='makeline'></p>  </h2></Link>
          
         <div className='container-makeup'>
             <div className='left'>
-              <img   width="110%" height="450px"
+              <img   width="100%" height="450px"
               src="https://cdn2.stylecraze.com/wp-content/uploads/2012/05/50-Makeup-Tips-You-Have-To-Know-6.jpg.webp" alt="" />
             </div>
             <div className='right'>

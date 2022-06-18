@@ -20,21 +20,37 @@
 .test-subcontainer>div{
     width: 30%;
     height: 400px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
    align-items: center;
     background-color: white;
 }
-   
+.testcontainer>h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+   .testline{
+    margin-left: 45%;
+    border: 1px solid white;
+    width:10%;
+    background-color: white ;
+   }
 .test-subcontainer>div>p:nth-child(1){
-     font-family:  sans-serif;
+     font-family:   poppins ;
      color: black;
      font-weight: lighter;
      font-size: 14px;
      padding-top: 10%;
+     line-height: 25px;
+    clear: both;
+    position: relative;
+    
 }
 .test-subcontainer>div>p:nth-child(2){
-    font-family:  sans-serif;
+    /* font-family:   poppins,serif; */
     color:  rgb(254,92,116);
     font-weight: 550;
-    font-size: 14px;
+    font-size: 19px;
+   
+    padding-left: 5px;
 }

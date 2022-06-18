@@ -4,7 +4,7 @@ import "../HomePage/HairStyle.css"
 export default function HairStyles() {
   return (
     <div>
-       <h1> HAIR STYLES<p className='line'></p>  </h1>
+       <h1> HAIR STYLES<p className='line-hairstyle'></p>  </h1>
         
         <div className='container-hairstyle'>
             <div className='left-hairstyle'>
