@@ -1,13 +1,13 @@
 .container-makeup {
   display: flex;
-  border:1px solid red;
+  /* border:1px solid red; */
   width: 100%;
   
  text-align: left;
-  
+ cursor: pointer;
 }
 .left {
- border:1px solid red;
+ /* border:1px solid red; */
  width: 50%;
  margin-left: 50px; 
  
@@ -19,11 +19,15 @@
  
    
 }
+.head>a{
+  text-decoration: none;
+  color: black;
+}
  .makeline{
   color:  rgb(254,92,117);
-  margin-left: 46%;
+  margin-left: 45%;
   border: 1px solid rgb(254,92,117);
-  width:7%;
+  width:5%;
   background-color:rgb(254,92,117) ;
  
 }
@@ -44,7 +48,7 @@ h2{
 }
 .right
 {
-  border:1px solid blue;
+  /* border:1px solid blue; */
   width: 40%;
   margin-left: 65px;
   padding-left: 3%;
@@ -53,15 +57,16 @@ h2{
 
 .container2{
   display: flex;
-  border:1px solid red;
+  /* border:1px solid red; */
   width: 100%;
   margin-top: 5%;
   text-align: left;
   height: 400px;
+  cursor: pointer;
 }
 
 .container2>div{
-  border:1px solid red;
+  /* border:1px solid red; */
 
   width: 28%;
   height: 350px;
@@ -81,7 +86,7 @@ h2{
 
 
 .read {
-  border:1px solid blue;
+  /* border:1px solid blue; */
   width: 20%;
   margin-left: 550px;
   padding-left: 35%;

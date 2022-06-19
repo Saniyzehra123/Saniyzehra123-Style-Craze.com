@@ -1,19 +1,21 @@
 .skincontainer{
     /* display: flex; */
-    border:1px solid blue;
+    /* border:1px solid blue; */
     width: 100%;
     margin-top: 5%;
     text-align: left;
     height: 850px;
     background-color: rgb(254,92,116);
+    cursor: pointer;
 }
 .skincare-container{
     display: flex;
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 100%;
     /* margin-top: 5%; */
     text-align: left;
     height: 400px;
+    cursor: pointer;
 }
 .skincontainer>h1{
     font-size: 30px;
@@ -22,16 +24,20 @@
    color:   white;
    
   }
+  .skintitle>a{
+    text-decoration: none;
+     color:   white;
+  }
 .skline{
   
-    margin-left: 1.5%;
+    margin-left: -2%;
     border:  1px solid white;
     width:15%;
     background-color: white ;
    
   }
 .left-skcare{
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 50%;
     height: 350px;
     margin-left: 50px; 
@@ -47,7 +53,7 @@
 }
 .right-skcare{
      background-color: white;
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 40%;
     margin-top:2%;
     height: 290px;
@@ -76,7 +82,7 @@
     text-decoration: underline;
   }
 .sub-skcare{
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 100%;
     margin-top: 2%;
     text-align: left;
@@ -84,7 +90,7 @@
     display: flex;
 }
 .dyeimg-skcare{
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 25%;
     height: 200px;
     border-radius: 10px;
@@ -94,7 +100,7 @@
 
 }
 .dyeimg-skcare>img{
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 100%;
     height: 83%;
     border-radius: 10px;
@@ -119,7 +125,7 @@
     cursor: pointer;
 }
 .shinyimg-skcare{
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 25%;
     height: 200px;
     border-radius: 10px;
@@ -128,14 +134,14 @@
     margin-top: 10px;
 }
 .shinyimg-skcare>img{
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 100%;
     height: 83%;
     border-radius: 10px;
     text-align: left;
 }
 .shinytext-skcare{
-    border:1px solid green;
+    /* border:1px solid green; */
     width: 25%;
     /* margin-top: 1.5%; */
     height: 185px;
@@ -163,7 +169,7 @@
 
  
 .readcare-skcare{
-    border:1px solid blue;
+    /* border:1px solid blue; */
     width: 20%;
     margin-left: 550px;
     padding-left: 35%;

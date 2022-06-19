@@ -1,13 +1,13 @@
 .container-health{
     display: flex;
-    border:1px solid blue;
+    /* border:1px solid blue; */
     width: 100%;
    text-align: left;
-   
+   cursor: pointer;
     
   }
   .left-health {
-   border:1px solid red;
+   /* border:1px solid red; */
    width: 50%;
    margin-left: 50px; 
    
@@ -18,9 +18,13 @@
    
    
   }
+ .healthtitle>a{
+    text-decoration: none;
+    color:   black;
+  }
    .line-health{
     color:  rgb(254,92,117);
-    margin-left: 42%;
+    margin-left: 39%;
     border: 1px solid rgb(254,92,117);
     width:15%;
     background-color:rgb(254,92,117) ;
@@ -41,7 +45,7 @@
   }
   .right-health
   {
-    border:1px solid blue;
+    /* border:1px solid blue; */
     width: 40%;
     margin-left: 65px;
     padding-left: 3%;
@@ -50,7 +54,7 @@
   
   .container2-health{
     display: flex;
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 100%;
     margin-top: 4%;
     text-align: left;
@@ -59,7 +63,7 @@
   }
   
   .container2-health>div{
-    border:1px solid red;
+    /* border:1px solid red; */
   
     width: 28%;
     height: 350px;
@@ -76,7 +80,7 @@
     text-decoration: underline;
    }
    .read-health{
-    border:1px solid blue;
+    /* border:1px solid blue; */
     width: 20%;
     margin-left: 550px;
     padding-left: 35%;

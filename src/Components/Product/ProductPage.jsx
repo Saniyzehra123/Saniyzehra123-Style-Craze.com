@@ -1,133 +1,90 @@
-import React from 'react'
+ import React, { useState } from 'react'
+ 
+  import "../Product/ProductPage.css"
+ 
 import axios from 'axios'
-import { useState ,useEffect} from 'react'
-// import Image from 'next/image';
-import {
-  Box,
-  Center,
-  Heading,
-  Flex,
-  Text,
-  Stack,
-  Avatar,
-  useColorModeValue,
-} from '@chakra-ui/react';
 
-export default function ProductPage() {
-
-  const [product,setproduct] = useState([]);
+import Navbar from '../Navbar'
+ 
+import Footer from "../HomePage/Footer"
+import { useEffect } from 'react';
 
  
+ export default function ProductPage() {
+  const [data,setData] = useState([]);
   useEffect(()=>{
-        
-    axios({
-        url: "http://localhost:8080/products",
-        // params:{
-        //   page:page
-        // }
-        
-    })
-    .then((res)=>{
-      console.log("pro",res)
-     setproduct(res.product)
-    })
-    .catch((err)=>{
-        alert("error")
-    })
-},[])
-  return (
-    <div>
-     <Flex flexWrap="wrap" justifyContent="space-around">
-     <Blog/>
-     {/* {
-        product.map((ans)=>{
-          return(
+      axios({
+          url: "http://localhost:8080/Products",
+          
+      })
+      .then((res)=>{
+        console.log("makeup",res)
+          setData(res.data)
+      })
+      .catch((err)=>{
+          alert("error")
+      })
+  },[])
+   return (
+     <div>
+       <a href="/"> <Navbar/> </a>
+    <h1> SHOP <p className='hsline'></p> </h1>
+    <div className="procontainer"> 
+    <div className='select'>
+     <select>
+      <option value="">
+         Category
+      </option>
+      <option value="">
+        Women Fitness
+      </option>
+      <option value="">
+        Skin
+      </option>
+      <option value="">
+        Makeup
+      </option>
+      <option value="">
+         Health
+      </option>
+      <option value="">
+        Hair
+      </option>
+      <option value="">
+        sport
+      </option>
+     </select>
+     </div>
+    <div className="procollection" >
+{
+     data.map((ans)=>{
+       return(
+      
+         <>
+         <div> 
          
-            <>
-            <Blog
-             
-            
-            
-            
-               img={ans.img} 
-             
-             
+       
+           <img src={ans.img} width="90%" height="500px" />
+          <br/>
+          <p1>{ans.name}</p1>
+          <br/>
+           <p1>{ans.title}</p1>
+          <br/>
+            <p1>{ans.des}</p1>
           
-              title={ans.title} 
-           
           
-             
-           /> 
-            </>
-            
-    ) 
-        }) 
-      }  */}
-      {/* {product.map((product) =>  {
-        return <Blog key={product.key} image={product.image} />
-      })} */}
-     </Flex>
-    </div>
-  )
-}
-  function   Blog() {
-    return (
-      <Center py={6}>
-        <Box
-          maxW={'445px'}
-          w={'full'}
-          bg={useColorModeValue('white', 'gray.900')}
-          boxShadow={'2xl'}
-          rounded={'md'}
-          p={6}
-          overflow={'hidden'}>
-          <Box
-            h={'210px'}
-            bg={'gray.100'}
-            mt={-6}
-            mx={-6}
-            mb={6}
-            pos={'relative'}>
-            <img width="40%"
-              src={
-                'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
-              }
-              layout={'fill'}
-            />
-          </Box>
-          <Stack>
-            <Text
-              color={'green.500'}
-              textTransform={'uppercase'}
-              fontWeight={800}
-              fontSize={'sm'}
-              letterSpacing={1.1}>
-              Blog
-            </Text>
-            <Heading
-              color={useColorModeValue('gray.700', 'white')}
-              fontSize={'2xl'}
-              fontFamily={'body'}>
-              Boost your conversion rate
-            </Heading>
-            <Text color={'gray.500'}>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-              et ea rebum.
-            </Text>
-          </Stack>
-          {/* <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
-            <Avatar
-              src={'https://avatars0.githubusercontent.com/u/1164541?v=4'}
-              alt={'Author'}
-            />
-            <Stack direction={'column'} spacing={0} fontSize={'sm'}>
-              <Text fontWeight={600}>Achim Rolle</Text>
-              <Text color={'gray.500'}>Feb 08, 2021 · 6min read</Text>
-            </Stack>
-          </Stack> */}
-        </Box>
-      </Center>
-    );
-  }
+         </div>
+         </>
+         
+ ) 
+     }) 
+   }  
+          
+          </div>
+          </div>
+
+      
+     </div>
+   )
+ }
+ 

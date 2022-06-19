@@ -1,0 +1,46 @@
+.promdcontainer{
+    /* justify-content: center;
+    align-items: center; */
+    border: 1 px solid blue;
+    height: 200%;
+    
+ 
+
+  }
+.procollection{
+    margin-top: 5%;
+    display: grid;
+     margin-left: 5%;
+    width: 90%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-gap: 25px;
+         
+
+  }
+  .procollection>div{
+    /* border:1px solid red; */
+     
+  }
+  .procollection>div>p1:nth-child(3){
+    color:   rgb(254,92,117);
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 10%;
+  }
+  .procollection>div>p1:nth-child(4){
+    color: grey;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 10%;
+  }
+  .procollection>div>p1:nth-child(5){
+    color:   black;
+     
+  }
+  .select>select{
+    border:1px solid  rgb(165, 158, 158);
+    width: 20%;
+    height: 30px;
+    margin-right: 70%;
+  }

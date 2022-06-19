@@ -4,12 +4,14 @@ import "../HomePage/HairStyle.css"
 export default function HairStyles() {
   return (
     <div>
-       <h1> HAIR STYLES<p className='line-hairstyle'></p>  </h1>
+       <h1 className='hairs'> <a href="/Hairstyles"> HAIR STYLES </a><p className='line-hairstyle'></p>  </h1>
         
         <div className='container-hairstyle'>
             <div className='left-hairstyle'>
+            <a href="/Hairstyles">
               <img   width="100%" height="450px"
               src="https://cdn2.stylecraze.com/wp-content/uploads/2019/06/29-Brilliant-Galaxy-Hair-Color-Styles-1.jpg.webp" alt="" />
+         </a>
             </div>
             <div className='right-hairstyle'>
               <h2> 29 Brilliant Galaxy Hair Color  

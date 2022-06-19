@@ -11,22 +11,12 @@ import Footer from "../HomePage/Footer"
  export default function Makeupdetails() {
 
   const [data,setData] = useState([]);
-
-  // useEffect(() => {
-  //   axios.get("http://localhost:8080/makeup").then((response) => {
-  //        console.log("Users",makeup)
-
-  //         setList([...response.makeup])
-  //   })
-  //   } ,[])
+ 
   useEffect(()=>{
         
     axios({
         url: "http://localhost:8080/makeup",
-        // params:{
-        //   page:page
-        // }
-        
+      
     })
     .then((res)=>{
       console.log("makeup",res)
@@ -42,7 +32,7 @@ import Footer from "../HomePage/Footer"
     
      <div>
       
-       <Navbar/>
+      <a href="/"> <Navbar/> </a>
        <h1>MAKE UP  <p className='makeupline'></p> </h1>
        <div className="mdcontainer"> 
        <div className="makebtn"> 

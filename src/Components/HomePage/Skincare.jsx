@@ -4,11 +4,13 @@ import  "../HomePage/Skincare.css"
 export default function Skincare() {
   return (
     <div  className='skincontainer'>
-       <h1>SKIN CARE   <p className='skline'></p> </h1>
+       <h1 className='skintitle'>   <a href="/SkinCare">SKIN CARE </a>   <p className='skline'></p> </h1>
     <div className='skincare-container'>
   
       <div className='left-skcare'>
+      <a href="/SkinCare">
         <img src="https://cdn2.stylecraze.com/wp-content/uploads/2021/08/How-To-Get-Paint-Off-Skin--Useful-Tips-And-Methods.jpg.webp" alt="" />
+      </a>
       </div>
       <div className='right-skcare'>
       <h2> How To Get Paint Off Skin – Useful <br/> Tips And Methods
