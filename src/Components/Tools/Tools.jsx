@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Footer from '../HomePage/Footer'
 import Navbar from '../Navbar'
 import "../Tools/Tools.css"
@@ -6,7 +7,7 @@ import "../Tools/Tools.css"
 export default function Tools() {
   return (
     <div>
-        <a href="/"> <Navbar/> </a>
+         <Link to="/"> <Navbar/> </Link>
         <div className="procontainer"> 
    <div className='cal'>
    <img  width="95%" height="200px"

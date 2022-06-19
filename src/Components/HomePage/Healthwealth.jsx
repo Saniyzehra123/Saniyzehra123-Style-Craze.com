@@ -1,18 +1,19 @@
  import React from 'react'
+import { Link } from 'react-router-dom'
  import "../HomePage/Health&Wealth.css"
  
  export default function Healthwealth() {
    return (
      <div>
-         <h1 className='healthtitle'><a href="/Wealth">HEALTH & WELLNESS</a><p className='line-health'></p>  </h1>
+         <h1 className='healthtitle'><Link to="/Wealth">HEALTH & WELLNESS</Link><p className='line-health'></p>  </h1>
         
         <div className='container-health'>
             <div className='left-health'>
-            <a href="/Wealth">
+            <Link to="/Wealth">
               <img   width="100%" height="450px"
              
               src="https://cdn2.stylecraze.com/wp-content/uploads/2021/05/20-Fruits-For-Glowing-Skin.jpg.webp" alt="" />
-              </a>
+              </Link>
             </div>
             <div className='right-health'>
               <h2> 20 Fruits For Glowing Skin</h2>

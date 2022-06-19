@@ -1,16 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "../HomePage/Haircare.css"
 
 export default function Haircare() {
   return (
     <div className='carecontainer'> 
-      <h1 className='headstyle'> <a href="/Haircare"> HAIR CARE </a>  <p className='linecare'></p> </h1>
+      <h1 className='headstyle'> <Link to="/Haircare"> HAIR CARE </Link>  <p className='linecare'></p> </h1>
     <div className='container'>
   
       <div className='leftcare'>
-      <a href="/Haircare">
+      <Link to="/Haircare">
         <img src="https://cdn2.stylecraze.com/wp-content/uploads/2012/12/20-Secret-Tips-To-Get-Shiny-Voluminous-And-Healthy-Hairs.jpg.webp" alt="" />
-        </a>  
+        </Link>  
       </div>
       <div className='rightcare'>
       <h2>   20 Secret Tips To Get Shiny,

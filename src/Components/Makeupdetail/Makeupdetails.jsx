@@ -7,6 +7,7 @@
 import Navbar from '../Navbar'
 import { useDispatch } from "react-redux";
 import Footer from "../HomePage/Footer"
+import { Link } from "react-router-dom"
  
  export default function Makeupdetails() {
 
@@ -32,7 +33,7 @@ import Footer from "../HomePage/Footer"
     
      <div>
       
-      <a href="/"> <Navbar/> </a>
+      <Link to="/"> <Navbar/> </Link>
        <h1>MAKE UP  <p className='makeupline'></p> </h1>
        <div className="mdcontainer"> 
        <div className="makebtn"> 

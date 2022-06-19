@@ -8,6 +8,7 @@ import Navbar from '../Navbar'
  
 import Footer from "../HomePage/Footer"
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom'
 
  
  export default function ProductPage() {
@@ -27,7 +28,7 @@ import { useEffect } from 'react';
   },[])
    return (
      <div>
-       <a href="/"> <Navbar/> </a>
+     <Link to="/"> <Navbar/> </Link>
     <h1> SHOP <p className='hsline'></p> </h1>
     <div className="procontainer"> 
     <div className='select'>

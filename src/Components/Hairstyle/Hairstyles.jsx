@@ -9,6 +9,7 @@ import Navbar from '../Navbar'
  
 import Footer from "../HomePage/Footer"
 import { useState,useEffect } from 'react'
+import { Link } from 'react-router-dom'
  
  export default function HairStyles() {
   const [data,setData] = useState([]);
@@ -27,7 +28,7 @@ import { useState,useEffect } from 'react'
   },[])
    return (
      <div>
-     <a href="/"> <Navbar/> </a>
+     <Link to="/"> <Navbar/> </Link>
     <h1>   HAIR STYLES <p className='hsline'></p> </h1>
     <div className="hscontainer"> 
     <div className="hsbtn"> 

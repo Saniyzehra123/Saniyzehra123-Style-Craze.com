@@ -7,6 +7,7 @@ import axios from 'axios'
 import Navbar from '../Navbar'
  
 import Footer from "../HomePage/Footer"
+import { Link } from 'react-router-dom'
 
 export default function Haircare() {
 
@@ -30,7 +31,7 @@ export default function Haircare() {
   return (
     <div>
       
-      <a href="/"> <Navbar/> </a>
+      <Link to="/"> <Navbar/> </Link>
     <h1> HAIR CARE <p className='haircareline'></p> </h1>
     <div className="haircarecontainer"> 
     <div className="haircarebtn"> 

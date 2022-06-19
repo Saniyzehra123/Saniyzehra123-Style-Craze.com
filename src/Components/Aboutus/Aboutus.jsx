@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "../Aboutus/About.css"
 import Footer from '../HomePage/Footer'
 import Navbar from '../Navbar'
@@ -6,7 +7,7 @@ import Navbar from '../Navbar'
 export default function Aboutus() {
   return (
     <div>
-    <a href="/"> <Navbar/> </a>
+       <Link to="/"> <Navbar/> </Link>
       
     <div className='about'>
         <div>

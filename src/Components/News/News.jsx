@@ -7,6 +7,7 @@ import axios from 'axios'
 import Navbar from '../Navbar'
  
 import Footer from "../HomePage/Footer"
+import { Link } from 'react-router-dom'
 
  
   
@@ -28,7 +29,7 @@ export default function News() {
     },[])
   return (
     <div>
-       <a href="/"> <Navbar/> </a>
+          <Link to="/"> <Navbar/> </Link>
     <h1> NEWS <p className='hsline'></p> </h1>
     <div className="newcontainer"> 
     <div className="newbtn"> 

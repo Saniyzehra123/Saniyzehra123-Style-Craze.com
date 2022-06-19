@@ -6,6 +6,7 @@ import axios from 'axios'
 import Navbar from '../Navbar'
  
 import Footer from "../HomePage/Footer"
+import { Link } from 'react-router-dom'
 
 export default function Healthwelth() {
   const [data,setData] = useState([]);
@@ -24,7 +25,7 @@ export default function Healthwelth() {
   },[])
   return (
     <div>
-      <a href="/"> <Navbar/> </a>
+        <Link to="/"> <Navbar/> </Link>
     <h1> HEALTH AND WELLNESS <p className='hsline'></p> </h1>
     <div className="hscontainer"> 
     <div className="hsbtn"> 

@@ -8,7 +8,7 @@ import React from 'react'
 export default function Makeup() {
   return (
     <div  >
-         <h2 className="head"> <Link href="/Makeup">Makeup</Link>  <p className='makeline'></p>  </h2>   
+         <h2 className="head"> <Link to="/Makeup">Makeup</Link>  <p className='makeline'></p>  </h2>   
          
         <div className='container-makeup'>
             <div className='left'>
