@@ -8,13 +8,13 @@ import React from 'react'
 export default function Makeup() {
   return (
     <div  >
-         <h2 className="head"> <a href="/Makeup">Makeup</a>  <p className='makeline'></p>  </h2>   
+         <h2 className="head"> <Link href="/Makeup">Makeup</Link>  <p className='makeline'></p>  </h2>   
          
         <div className='container-makeup'>
             <div className='left'>
-            <a to="/Makeup">   <img   width="100%" height="450px"
+            <Link to="/Makeup">   <img   width="100%" height="450px"
               src="https://cdn2.stylecraze.com/wp-content/uploads/2012/05/50-Makeup-Tips-You-Have-To-Know-6.jpg.webp" alt="" />
-           </a>
+           </Link>
             </div>
             <div className='right'>
               <h2>  50 Makeup Tips You Have To 
