@@ -20,7 +20,7 @@ import { Link } from "react-router-dom"
       
     })
     .then((res)=>{
-      console.log("makeup",res)
+      // console.log("makeup",res)
         setData(res.data)
     })
     .catch((err)=>{

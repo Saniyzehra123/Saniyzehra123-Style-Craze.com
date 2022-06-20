@@ -16,7 +16,7 @@ export default function Healthwelth() {
           
       })
       .then((res)=>{
-        console.log("makeup",res)
+      <div className=""></div>
           setData(res.data)
       })
       .catch((err)=>{

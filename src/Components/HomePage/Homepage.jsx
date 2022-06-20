@@ -13,7 +13,7 @@ export default function Homepage() {
 
     })
       .then((res) => {
-        console.log("makeup", res)
+        // console.log("makeup", res)
         setData(res.data)
       })
       .catch((err) => {
@@ -30,7 +30,7 @@ export default function Homepage() {
 
     })
       .then((res) => {
-        console.log("hcare", res)
+        // console.log("hcare", res)
         setHairCare(res.data)
       })
       .catch((err) => {
@@ -47,7 +47,7 @@ export default function Homepage() {
 
     })
       .then((res) => {
-        console.log("skin", res)
+        // console.log("skin", res)
         setSkin(res.data)
       })
       .catch((err) => {
@@ -62,7 +62,7 @@ export default function Homepage() {
 
     })
       .then((res) => {
-        console.log("style", res)
+        // console.log("style", res)
         setStyle(res.data)
       })
       .catch((err) => {
@@ -77,7 +77,7 @@ export default function Homepage() {
 
     })
       .then((res) => {
-        console.log("health", res)
+        // console.log("health", res)
         setHealth(res.data)
       })
       .catch((err) => {
@@ -92,7 +92,7 @@ export default function Homepage() {
 
     })
       .then((res) => {
-        console.log("news", res)
+        // console.log("news", res)
         setNews(res.data)
       })
       .catch((err) => {
