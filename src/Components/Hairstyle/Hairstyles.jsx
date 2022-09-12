@@ -14,10 +14,9 @@ import { Link } from 'react-router-dom'
  export default function HairStyles() {
   const [data,setData] = useState([]);
   useEffect(()=>{
-      axios({
-          url: "http://localhost:8080/Hairstyles",
-          
-      })
+    axios.get("http://localhost:8080/Hairstyles")
+   
+     
       .then((res)=>{
         console.log("makeup",res)
           setData(res.data)

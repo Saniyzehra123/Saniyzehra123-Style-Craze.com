@@ -11,11 +11,8 @@ export default function SkinCare() {
     const [data,setData] = useState([]);
  
     useEffect(()=>{
-          
-      axios({
-          url: "http://localhost:8080/skin",
-          
-      })
+      axios.get("http://localhost:8080/skin")
+       
       .then((res)=>{
         console.log("makeup",res)
           setData(res.data)

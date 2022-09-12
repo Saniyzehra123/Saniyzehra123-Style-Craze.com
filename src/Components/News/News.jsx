@@ -15,10 +15,9 @@ import { Link } from 'react-router-dom'
 export default function News() {
     const [data,setData] = useState([]);
     useEffect(()=>{
-        axios({
-            url: "http://localhost:8080/news",
-            
-        })
+
+      axios.get("http://localhost:8080/news")
+        
         .then((res)=>{
           console.log("makeup",res)
             setData(res.data)

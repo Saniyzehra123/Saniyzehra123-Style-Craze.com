@@ -11,10 +11,8 @@ import { Link } from 'react-router-dom'
 export default function Healthwelth() {
   const [data,setData] = useState([]);
   useEffect(()=>{
-      axios({
-          url: "http://localhost:8080/health",
-          
-      })
+    axios.get("http://localhost:8080/health")
+      
       .then((res)=>{
       <div className=""></div>
           setData(res.data)

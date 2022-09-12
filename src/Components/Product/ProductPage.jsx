@@ -14,10 +14,8 @@ import { Link } from 'react-router-dom'
  export default function ProductPage() {
   const [data,setData] = useState([]);
   useEffect(()=>{
-      axios({
-          url: "http://localhost:8080/Products",
-          
-      })
+    axios.get("http://localhost:8080/Products")
+       
       .then((res)=>{
         console.log("makeup",res)
           setData(res.data)

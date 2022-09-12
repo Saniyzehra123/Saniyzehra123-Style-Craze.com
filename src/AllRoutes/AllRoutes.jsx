@@ -1,14 +1,10 @@
 import React from 'react'
  
- 
-
 import { Route, Routes } from "react-router-dom";
 import Aboutus from '../Components/Aboutus/Aboutus';
 import Haircare from '../Components/Haircare/Haircare';
 import Hairstyles from '../Components/Hairstyle/Hairstyles';
 import Healthwelth from '../Components/Health/Healthwelth';
- 
- 
  
 import Makeupdetails from '../Components/Makeupdetail/Makeupdetails';
 import News from '../Components/News/News';

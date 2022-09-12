@@ -14,11 +14,8 @@ import { Link } from "react-router-dom"
   const [data,setData] = useState([]);
  
   useEffect(()=>{
-        
-    axios({
-        url: "http://localhost:8080/makeup",
-      
-    })
+    axios.get("http://localhost:8080/makeup")
+    
     .then((res)=>{
       // console.log("makeup",res)
         setData(res.data)

@@ -15,10 +15,8 @@ export default function Haircare() {
  
     useEffect(()=>{
           
-      axios({
-          url: "http://localhost:8080/hairs",
-          
-      })
+      axios.get(
+           "http://localhost:8080/hairs" )
       .then((res)=>{
         console.log("makeup",res)
           setData(res.data)
