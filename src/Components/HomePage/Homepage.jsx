@@ -1,17 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import "../HomePage/HomePage.css"
 import { Link } from 'react-router-dom'
-import axios from 'axios'
+import axios  from 'axios'
 
 export default function Homepage() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
 
-    axios({
-      url: "http://localhost:8080/makeup",
-
-    })
+    axios.get("http://localhost:8080/makeup" )
       .then((res) => {
         // console.log("makeup", res)
         setData(res.data)
@@ -25,10 +22,7 @@ export default function Homepage() {
 
   useEffect(() => {
 
-    axios({
-      url: "http://localhost:8080/hairs",
-
-    })
+    axios.get( "http://localhost:8080/hairs")
       .then((res) => {
         // console.log("hcare", res)
         setHairCare(res.data)
@@ -42,10 +36,9 @@ export default function Homepage() {
 
   useEffect(() => {
 
-    axios({
-      url: "http://localhost:8080/skin",
+    axios.get("http://localhost:8080/skin")
 
-    })
+     
       .then((res) => {
         // console.log("skin", res)
         setSkin(res.data)
@@ -57,10 +50,7 @@ export default function Homepage() {
 
   const [style, setStyle] = useState([]);
   useEffect(() => {
-    axios({
-      url: "http://localhost:8080/Hairstyles",
-
-    })
+    axios.get("http://localhost:8080/Hairstyles")
       .then((res) => {
         // console.log("style", res)
         setStyle(res.data)
@@ -72,10 +62,7 @@ export default function Homepage() {
 
   const [health, setHealth] = useState([]);
   useEffect(() => {
-    axios({
-      url: "http://localhost:8080/health",
-
-    })
+    axios.get("http://localhost:8080/health")
       .then((res) => {
         // console.log("health", res)
         setHealth(res.data)
@@ -87,10 +74,7 @@ export default function Homepage() {
 
   const [news, setNews] = useState([]);
   useEffect(() => {
-    axios({
-      url: "http://localhost:8080/news",
-
-    })
+    axios.get("http://localhost:8080/news")
       .then((res) => {
         // console.log("news", res)
         setNews(res.data)
